@@ -1,0 +1,114 @@
+.tag-cloud {
+    text-align: center;
+}
+
+.tag-cloud span {
+    background: none repeat scroll 0 0 #E6E6E6;
+    
+    border-radius: 2px 2px 2px 2px;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 0;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+
+
+/*------------------------------------------------
+ * Book Frame
+ *------------------------------------------------ */
+.book-activity .inner {
+     border-left: 1px solid #4E998E;
+     padding: 0 0 0 1.5em;
+}
+
+.sidebar.sidebar-left-toc .inner {
+  padding: 0 0 0 .5em;
+}
+
+.sidebar.sidebar-left-toc ul.big-list li{
+  margin: 0 0 0;
+  padding: 0.3em;
+}
+
+.sidebar.sidebar-left-toc ul.big-list {
+    font-size: 1.2em;
+}
+
+
+/*------------------------------------------------
+ * Activity
+ *------------------------------------------------ */
+.activity-body p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.activity-body p input {
+    border-color: -moz-use-text-color -moz-use-text-color black;
+    border-style: none none solid;
+    border-width: 0 0 2px;
+    box-shadow: none;
+    font-size: 16px;
+    width: 120px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+  .activity-toolbar {
+    border: 1px solid #C2C2C2;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    padding: 10px;
+
+  }
+
+/*------------------------------------------------
+ * Date Wrapper
+ *------------------------------------------------ */
+
+.date-wrapper {
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  border: 1px solid #c2c2c2;
+  color: #242424;
+  text-align: center;
+  margin: 1.5em 0 1em 0;
+  padding: 2px;
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  max-width: 45px;
+  min-width: 45px;
+}
+.date-wrapper span {
+  font-size: 16px;
+  display: block;
+}
+.date-wrapper span.date-m {
+  padding: 2px 4px;
+  color: #ffffff;
+  background: #44857b;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.date-wrapper span.date-d {
+  font-size: 22px;
+  line-height: 1;
+  padding: 5px 0 3px 0;
+  color: #242424;
+}
+
+
+#content.hero-unit {padding:20px;}
+#content .span4 .well > div, #content .span4 .well ol li {height:50px;margin:5px 0;}
+.options{height:48px;background-color:white;border:solid 1px #cecece;text-align:center;}
+.options.dnd_disabled {background-color:gray;border:solid 1px #cecece;}.selectedContainer{border : 1px dashed green}.draggable{cursor: hand; cursor: pointer;}.elementDragged{}.draggingBoundries{border:2px dashed black}

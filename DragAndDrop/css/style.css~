@@ -1,0 +1,8 @@
+#content.hero-unit {padding:20px;}
+#content .span4 .well > div, #content .span4 .well ol li {height:50px;margin:5px 0;}
+.options{height:48px;background-color:white;border:solid 1px #cecece;text-align:center;}
+.options.dnd_disabled {background-color:gray;border:solid 1px #cecece;}
+.selectedContainer{border : 1px dashed green}
+.draggable{cursor: hand; cursor: pointer;}
+.elementDragged{background-color:green;}
+.draggingBoundries{border:2px dashed black}
