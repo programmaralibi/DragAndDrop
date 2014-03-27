@@ -7,5 +7,5 @@ Java Script Solution for Drag and drop with following features:
 
 2) Touch Supported, without using any additional library.
 
-3) Easy to include, use class "draggable" and "droppable" to add Drag and Drop capabilities.
+3) Easy to include, use class "draggable" and "droppable" to add "Drag and Drop" capabilities.
 
